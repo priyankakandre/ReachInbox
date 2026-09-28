@@ -171,9 +171,7 @@ In **Terminal 2** (BullMQ Worker Process):
 cd backend
 npm run dev:worker
 ```
-*Worker listens to Redis `email-queue` with concurrency `5` and minimum send delay `2000ms`.*
 
----
 
 ### Step 5: Start Frontend Dashboard
 
