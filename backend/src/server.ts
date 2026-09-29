@@ -16,7 +16,12 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: [config.frontendUrl, 'http://localhost:3000', 'http://localhost:5173'],
+    origin: [
+      config.frontendUrl,
+      'http://localhost:3000',
+      'http://localhost:3001',
+      'http://localhost:5173',
+    ],
     credentials: true,
   })
 );
